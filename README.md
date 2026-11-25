@@ -55,7 +55,6 @@ for family, group in valid.groupby("family"):
 | [prepare_edits.py](scripts/prepare_edits.py) / [complete_edits.py](scripts/complete_edits.py) | Counterfactual construction, features and fallback edits |
 | [analyze_results.py](scripts/analyze_results.py) | Paired comparisons, bootstrap intervals, subgroup tests and plots |
 | [review_actual_examples.py](scripts/review_actual_examples.py) | Qualitative records and post-hoc mention sensitivity |
-| [verify_real_outputs.py](scripts/verify_real_outputs.py) | Independent checks against the raw responses |
 
 ## Results
 
@@ -89,13 +88,13 @@ python -m pip install -r requirements-bootstrap.txt
 python scripts/reproduce_analysis.py
 ```
 
-This recomputes the primary results and post-hoc sensitivity, then verifies them against the raw records. It overwrites generated analysis exports. To view the tables, figures and examples in Jupyter:
+This recomputes the primary results and post-hoc sensitivity in `outputs/results/` and regenerates the figures. To view the tables, figures and examples in Jupyter:
 
 ```sh
 python -m jupyter lab notebooks/analysis.ipynb
 ```
 
-**Restart & Run All** runs the same analysis. The [full experiment notebook](notebooks/phi_cct_esnli.ipynb) also supports standalone replay with embedded frozen inputs and recorded responses. Fresh-kernel checks are recorded in [notebook_validation.json](outputs/notebook_validation.json).
+The analysis notebook runs the same calculations. The [full experiment notebook](notebooks/phi_cct_esnli.ipynb) contains the complete pipeline and can replay the recorded responses.
 
 ## Run fresh model inference
 
@@ -109,12 +108,7 @@ BACKEND = "auto"  # MPS or CUDA
 
 The notebook downloads the pinned FP16 model, runs a smoke test and saves resumable checkpoints. The recorded Mac run used about 15.5 GiB of GPU driver memory; loading and runtime need additional headroom. Different hardware or library versions may change responses. [MPS loading notes](docs/loading_notes.md) document the tested loading path.
 
-Frozen inputs are under [data/](data/), raw response CSVs under [outputs/raw/](outputs/raw/), and JSONL response checkpoints under [outputs/checkpoints/](outputs/checkpoints/). To regenerate the PDF or build a submission archive:
-
-```sh
-python scripts/render_report.py
-python scripts/package_submission.py
-```
+Frozen inputs are under [data/](data/), raw response CSVs under [outputs/raw/](outputs/raw/), and JSONL response checkpoints under [outputs/checkpoints/](outputs/checkpoints/).
 
 ## References
 
