@@ -1,0 +1,6 @@
+{
+  "remaining_hours": 22.89540244138889,
+  "smoke_projected_hours": 21.32151681022272,
+  "projected_with_25_percent_margin": 26.6518960127784,
+  "decision": "seek_faster_gpu"
+}

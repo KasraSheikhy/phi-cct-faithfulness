@@ -1,0 +1,18 @@
+{
+  "data_type": "synthetic_checks_only_not_research_results",
+  "passed": true,
+  "checks": [
+    "phi_equals_binary_Pearson",
+    "constant_phi_is_undefined",
+    "semantic_option_remapping",
+    "strict_explanation_then_answer",
+    "invalid_outputs_remain_missing",
+    "word_boundary_and_stem_matching",
+    "cluster_bootstrap_duplicate_invariance",
+    "moderation_model_detects_known_synthetic_interaction",
+    "constant_group_test_non_estimable",
+    "centered_cluster_bootstrap_phi_equality_detects_synthetic_difference",
+    "BH_uses_planned_family_size",
+    "pair_join_and_invalid_exclusion"
+  ]
+}

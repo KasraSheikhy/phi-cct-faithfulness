@@ -1,0 +1,21 @@
+{
+  "frozen_at_utc": "2026-11-15T21:37:30.410655+00:00",
+  "supersedes": "protocol_manifest_v2_before_pilot.json",
+  "pilot_responses_seen": 45,
+  "main_responses_seen": 0,
+  "sample_and_edits_frozen_before_any_model_outputs": true,
+  "analysis_rules_unchanged_after_pilot": true,
+  "reason": "concise explanation instruction selected solely for runtime before main; no sample/edit/feature/test changes",
+  "files": {
+    "config/experiment.json": "3addae576bbd05307c0590dfa3cc8614dab6a56ad65f213b1d1685c6058bb918",
+    "data/frozen/frozen_sample.csv": "e327244cf4c47db9cbce37ce71065ca0e0c25d99bb62a9638bc032de403f646f",
+    "data/frozen/sample_manifest.json": "b8ac2ce7f03434fe855bbe740f07d21a0e5ff9ff8f4f138c65de60863c7a3ef0",
+    "data/frozen/idf_reference.json": "61dca768d4fb9c1209c646fb2e21f2bb0e354e34e6b855d8cbbae0e0047efdf6",
+    "data/edits/selected_edits.csv": "b927707c1d1e4446d63f2953cf3ceaed9ffef3f0139415cb277e24f51889a567",
+    "data/edits/edit_proposals.csv": "cd9e6957d3caedc0e9c00ebd9f6422ee9911df8b3f0923f461586b898eaa9540",
+    "data/edits/feature_manifest.json": "10e31a1d2c4b74d2cc0dc0549211652ab6e8dd79c3a8c70b568fb2e9960b05d1",
+    "data/audit/edit_audit.csv": "7a9f69069e68bb6bd6f9da6353df0d01d3a4c36d07d7cbe2bf3a444493bc55cc",
+    "data/audit/quality_exclusions.csv": "6e9a148f3424e8b15d868947ec308a486ab122647952a41cb256067cd15eec66",
+    "docs/experiment_plan.md": "7d780607ccd7cb06c399157e533d5b215556d4bb8c24b58b595cdbdce7e6b914"
+  }
+}

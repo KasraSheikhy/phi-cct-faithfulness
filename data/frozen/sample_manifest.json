@@ -1,0 +1,23 @@
+{
+  "frozen_at_utc": "2026-11-15T20:23:45.328422+00:00",
+  "source_url": "https://raw.githubusercontent.com/OanaMariaCamburu/e-SNLI/7b585a3f077fdea899780eb0473940522ae44a2e/dataset/esnli_test.csv",
+  "dataset_revision": "7b585a3f077fdea899780eb0473940522ae44a2e",
+  "split": "test",
+  "source_file_sha256": "9269aa8075dbfed0fa8a5012eb2ac9c18a92be139671f05df897f69092592927",
+  "sample_sha256": "e327244cf4c47db9cbce37ce71065ca0e0c25d99bb62a9638bc032de403f646f",
+  "seed": 20261115,
+  "sampling_algorithm": "random.Random(seed).sample over source IDs sorted lexicographically",
+  "python_version": "3.12.0",
+  "n_source_rows": 9824,
+  "n_sampled": 1000,
+  "n_distinct_source_ids": 1000,
+  "n_distinct_text_pairs": 1000,
+  "label_counts": {
+    "contradiction": 332,
+    "entailment": 340,
+    "neutral": 328
+  },
+  "source_row_index_convention": "zero-based CSV data-row index, excluding header",
+  "frozen_before_model_outputs": true,
+  "model_responses_generated_at_freeze": 0
+}

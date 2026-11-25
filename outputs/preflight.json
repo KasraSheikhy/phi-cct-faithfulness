@@ -1,0 +1,29 @@
+{
+  "observed_at_utc": "2026-11-15T20:22:01.482817+00:00",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "python": "3.12.0",
+  "free_disk_gib": 45.11,
+  "packages": {
+    "torch": "2.15.0",
+    "transformers": "4.57.6",
+    "accelerate": "1.15.0",
+    "numpy": "2.5.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.14.6",
+    "spacy": "3.8.18",
+    "nltk": "3.10.4"
+  },
+  "model_loaded": false,
+  "hardware": {
+    "machine_name": "MacBook Pro",
+    "chip_type": "Apple M4 Pro",
+    "physical_memory": "24 GB"
+  },
+  "mps_built": true,
+  "mps_available": true,
+  "cuda_available": false,
+  "mps_recommended_max_memory_gib": 17.76,
+  "status": "hardware_probe_only_model_smoke_pending"
+}

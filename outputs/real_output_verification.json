@@ -1,0 +1,21 @@
+{
+  "verified_at_utc": "2026-11-16T07:48:54.387195+00:00",
+  "data_type": "actual_full_run",
+  "passed": true,
+  "n_raw_responses": 9000,
+  "n_source_examples": 1000,
+  "n_pairs": 6000,
+  "checks": [
+    "frozen_protocol_checksums",
+    "unique_jobs_and_single_configuration",
+    "explanation_before_answer",
+    "all_option_letters_map_to_canonical_semantics",
+    "all_pair_keys_and_semantic_impacts",
+    "all_edit_spans_reconstruct_text",
+    "insertion_new_vs_deletion_baseline_convention",
+    "phi_independent_Pearson_and_contingency_counts",
+    "accuracy_independent_recalculation",
+    "BH_independent_statsmodels_check"
+  ],
+  "checkpoint_sha256": "39aaa1e3084c32792844fa4f32ed6186c946907f8205bff6d09926c958dd1b6f"
+}

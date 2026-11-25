@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "data_type": "discarded_synthetic_jobs_only",
+  "model_loaded": false,
+  "completed_checkpoint_skips_model_loading": true,
+  "resume_preserves_smoke_validity_and_timing_fields": true
+}

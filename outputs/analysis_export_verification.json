@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "data_type": "synthetic_responses_only_discarded_after_check",
+  "validated": "all five plots, ten test rows, all-source coverage, invalid exclusion and traceable CSV joins",
+  "temporary_outputs_retained": false,
+  "no_empirical_metrics_recorded": true
+}

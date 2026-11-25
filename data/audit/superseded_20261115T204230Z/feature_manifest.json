@@ -1,0 +1,26 @@
+{
+  "created_at_utc": "2026-11-15T20:38:32.535874+00:00",
+  "model_outputs_seen": false,
+  "ner_model": "en_core_web_sm",
+  "ner_model_version": "3.8.0",
+  "sentiment": "VADER lexicon mean target token valence by sign; context VADER compound separately",
+  "idf_bin_rule": "tertiles over training-derived IDF values of all frozen selected targets; <= lower common, <=upper middle, else rare",
+  "idf_bin_boundaries": [
+    4.424358951696549,
+    7.781977286800958
+  ],
+  "n_sources": 1000,
+  "n_edits": 1874,
+  "family_counts": {
+    "insertion": 973,
+    "deletion": 901
+  },
+  "audit_n": 24,
+  "selected_edits_sha256": "445407707dc71bdeed0aaf3e707bc68546144a1f61a22a7b5834cda4033126c2",
+  "feature_counts": {
+    "named_entity": "{('deletion', 'entity'): 41, ('deletion', 'non_entity'): 860, ('insertion', 'entity'): 219, ('insertion', 'non_entity'): 754}",
+    "target_polarity": "{('deletion', 'negative'): 16, ('deletion', 'neutral'): 842, ('deletion', 'positive'): 43, ('insertion', 'negative'): 159, ('insertion', 'neutral'): 496, ('insertion', 'positive'): 318}",
+    "position_bin": "{('deletion', 'early'): 297, ('deletion', 'late'): 218, ('deletion', 'middle'): 386, ('insertion', 'early'): 396, ('insertion', 'late'): 266, ('insertion', 'middle'): 311}",
+    "idf_bin": "{('deletion', 'common'): 520, ('deletion', 'middle'): 311, ('deletion', 'rare'): 70, ('insertion', 'common'): 109, ('insertion', 'middle'): 320, ('insertion', 'rare'): 544}"
+  }
+}

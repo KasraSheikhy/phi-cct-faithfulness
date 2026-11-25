@@ -1,0 +1,10 @@
+{
+  "analysis": "post_hoc_nationality_attribute_mention_sensitivity",
+  "primary_tests_unchanged": true,
+  "rule": "For French/Canadian insertions only, count an explicit nationality/nationalities reference in the new explanation in addition to the primary lexical rule",
+  "new_matches": 125,
+  "new_matches_with_I1": 60,
+  "proxy_audit_rows": 20,
+  "scope": "only two nationality adjectives; deterministic keyword proxy, not a full semantic mention gold standard",
+  "interpretation": "Checks whether the primary group contrast depends on lexical mention operationalization. This exploratory check does not establish general semantic faithfulness."
+}

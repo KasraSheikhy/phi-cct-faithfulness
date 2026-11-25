@@ -1,0 +1,20 @@
+{
+  "mode": "hardware",
+  "backend": "mps",
+  "config_hash": "8405fcd82b2dfa8612e30239746afbb848d7a3a21f9d99804d3408b9b0a96abb",
+  "checkpoint": "outputs/checkpoints/hardware_mps_8405fcd82b2d.jsonl",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "precision": "float16",
+  "quantization": false,
+  "do_sample": false,
+  "enable_thinking": false,
+  "response_order": "explanation_then_label",
+  "torch_version": "2.15.0",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "expected_jobs": 3,
+  "completed_jobs": 0,
+  "status": "load_failed",
+  "started_at_utc": "2026-11-15T21:25:38.636218+00:00",
+  "error": "RuntimeError: Invalid buffer size: 14.10 GiB"
+}

@@ -1,0 +1,1 @@
+source_id,edit_id,family,role,original_premise,original_hypothesis,edited_premise,edited_hypothesis,target,span_start,span_end,span_reference,grammaticality,coherence,meaning_changed,gold_label_may_change,decision,rejection_reason,reviewer,reviewed_at,outcomes_blinded,notes

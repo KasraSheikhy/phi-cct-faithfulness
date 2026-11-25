@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "mode": "full",
+  "n_frozen_sources": 1000,
+  "n_sources_with_valid_pairs": 1000,
+  "expected_jobs": 9000,
+  "completed_jobs": 9000,
+  "valid_pairs": 6000,
+  "sources_with_insufficient_edits": 0,
+  "planned_tests": 10,
+  "tests_estimable": 9,
+  "bootstrap_draws": 2000,
+  "bootstrap_unit": "source_id, all 1000 frozen clusters; repeated layouts and edits kept together",
+  "undefined_draws": "omitted from percentile calculation; counts and unstable status exported",
+  "bh_family_size": 10,
+  "qualitative_review": "completed_with_analyst_review"
+}

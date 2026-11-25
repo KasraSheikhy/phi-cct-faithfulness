@@ -1,0 +1,43 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+cache/
+.cache/
+# Keep only the actual completed study and its two runtime pilots in Git.
+outputs/checkpoints/
+!outputs/checkpoints/
+outputs/checkpoints/*
+!outputs/checkpoints/full_mps_f7e3f5770041.jsonl
+!outputs/checkpoints/smoke_mps_f7e3f5770041.jsonl
+!outputs/checkpoints/smoke_mps_cc3750736fd5.jsonl
+# Local infrastructure checks and copy receipts are not study observations.
+outputs/raw/hardware_raw_outputs.csv
+outputs/documents_copy_verification.json
+outputs/notebook_environment.json
+outputs/setup_verification.json
+outputs/*.log
+outputs/*_run_manifest.json
+outputs/model_download.json
+outputs/*execution*.log
+outputs/monitor*.json
+tmp/
+deliverables/
+# Frozen data, raw scientific outputs and final figures are deliverables.
+# Small VADER resource used by the recorded edit-preparation implementation.
+!cache/
+cache/*
+!cache/nltk/
+cache/nltk/*
+!cache/nltk/sentiment/
+cache/nltk/sentiment/*
+!cache/nltk/sentiment/vader_lexicon.zip
+
+# Local maintenance notes are not public project documentation.
+docs/work_log.md

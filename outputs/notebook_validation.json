@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-11-16T07:48:54.660706+00:00",
+  "canonical_restart_run_all": "passed_in_clean_directory",
+  "canonical_code_cells": 15,
+  "hidden_project_scripts_present": false,
+  "raw_recorded_responses_replayed": 9000,
+  "new_model_generations": 0,
+  "all_primary_and_sensitivity_numeric_results_reproduced": true,
+  "analysis_companion_restart_run_all": "passed",
+  "analysis_companion_code_cells": 6,
+  "fresh_generation_path": "included; actual completed GPU execution recorded separately"
+}

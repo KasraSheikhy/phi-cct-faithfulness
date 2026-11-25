@@ -1,0 +1,8 @@
+{
+  "finished_at_utc": "2026-11-16T07:54:58.663248+00:00",
+  "inference_status": "complete",
+  "analysis": "verified_on_actual_full_run_records",
+  "qualitative_review": "completed_with_labeled_analyst_inspection_and_user_Q2_discussion",
+  "report_pdf": "created_and_visually_verified_two_pages",
+  "submission": "final"
+}

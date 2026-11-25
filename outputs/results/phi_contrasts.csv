@@ -1,0 +1,17 @@
+family,variable,term,effect,ci_low,ci_high,scale
+insertion,named_entity,non_entity minus entity,0.4236737074903918,0.2881248733875233,0.5458662439582191,phi_difference
+insertion,target_polarity,neutral minus negative,-0.08413542521348641,-0.22789314403442779,0.06545569528703006,phi_difference
+insertion,target_polarity,positive minus negative,-0.10034504530400534,-0.28226397551999005,0.07307951110572962,phi_difference
+insertion,position_bin,late minus early,0.16138361105177942,0.03862580092981881,0.28665019746168824,phi_difference
+insertion,position_bin,middle minus early,0.1008549900626763,-0.020237035121457136,0.22200913481289306,phi_difference
+insertion,idf_bin,middle minus common,-0.18674859636352772,-0.3555612883734558,0.014646298869112239,phi_difference
+insertion,idf_bin,rare minus common,-0.27274746942470957,-0.43304345193090704,-0.08725424949499708,phi_difference
+insertion,gold_label_option_position,2 minus 1,0.04694284509859267,-0.015093318203420783,0.10931717334931117,phi_difference
+insertion,gold_label_option_position,3 minus 1,-0.008301138555786597,-0.07307724992134962,0.059068299348548514,phi_difference
+deletion,named_entity,non_entity minus entity,-0.09138537599360841,-0.35796631675274854,0.19211407615972348,phi_difference
+deletion,position_bin,late minus early,-0.12526799205918532,-0.2741214992634767,0.031728065044927645,phi_difference
+deletion,position_bin,middle minus early,-0.07510979409820673,-0.2182646543026696,0.06799304213172278,phi_difference
+deletion,idf_bin,middle minus common,0.08357593205152272,-0.05481323889045037,0.2114244185811576,phi_difference
+deletion,idf_bin,rare minus common,0.04573415999790695,-0.21400148842509334,0.30996775139508514,phi_difference
+deletion,gold_label_option_position,2 minus 1,-0.05306995440142523,-0.11360371679292154,0.010647413693085526,phi_difference
+deletion,gold_label_option_position,3 minus 1,-0.025092539002036507,-0.08787380848028707,0.045277017159075277,phi_difference

@@ -1,0 +1,18 @@
+{
+  "frozen_at_utc": "2026-11-15T21:05:20.562528+00:00",
+  "study_model_outputs_seen": false,
+  "supersedes": "protocol_manifest_v1.json",
+  "reason": "pre-outcome synthetic integration check repaired digit-only targets; frozen sample unchanged",
+  "files": {
+    "config/experiment.json": "1bd11afe464ec73e0babd1d7771bdcb633ef78084a58709ec0cc9bfb2bccc877",
+    "data/frozen/frozen_sample.csv": "e327244cf4c47db9cbce37ce71065ca0e0c25d99bb62a9638bc032de403f646f",
+    "data/frozen/sample_manifest.json": "b8ac2ce7f03434fe855bbe740f07d21a0e5ff9ff8f4f138c65de60863c7a3ef0",
+    "data/frozen/idf_reference.json": "61dca768d4fb9c1209c646fb2e21f2bb0e354e34e6b855d8cbbae0e0047efdf6",
+    "data/edits/selected_edits.csv": "b927707c1d1e4446d63f2953cf3ceaed9ffef3f0139415cb277e24f51889a567",
+    "data/edits/edit_proposals.csv": "cd9e6957d3caedc0e9c00ebd9f6422ee9911df8b3f0923f461586b898eaa9540",
+    "data/edits/feature_manifest.json": "10e31a1d2c4b74d2cc0dc0549211652ab6e8dd79c3a8c70b568fb2e9960b05d1",
+    "data/audit/edit_audit.csv": "7a9f69069e68bb6bd6f9da6353df0d01d3a4c36d07d7cbe2bf3a444493bc55cc",
+    "data/audit/quality_exclusions.csv": "6e9a148f3424e8b15d868947ec308a486ab122647952a41cb256067cd15eec66",
+    "docs/experiment_plan.md": "54759b3112c98ee407c6b30d72cf65edbde06c8cf93d601cec7eefe3c75f8bb4"
+  }
+}

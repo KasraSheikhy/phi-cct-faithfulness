@@ -1,0 +1,8 @@
+{
+  "response_verbatim": "they are all ok in my opinion",
+  "scope": "24 displayed edit proposals",
+  "grammaticality_and_coherence": "global acceptability inferred from user response",
+  "meaning_change_and_gold_change": "uncertain; user did not explicitly distinguish these judgments",
+  "study_model_outputs_seen": false,
+  "analyst_override": "edit 20 excluded as clearly malformed despite global acceptance"
+}

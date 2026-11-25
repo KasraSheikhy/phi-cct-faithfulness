@@ -1,0 +1,4 @@
+family,n_responses,word_count_rule,requested_max_words,mean_words,median_words,max_words,over_requested_limit
+baseline,3000,whitespace-separated words,25,20.588666666666665,20.0,56,551
+deletion,2760,whitespace-separated words,25,20.318840579710145,20.0,47,454
+insertion,3240,whitespace-separated words,25,21.465740740740742,21.0,84,694

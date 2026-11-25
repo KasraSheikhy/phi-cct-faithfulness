@@ -1,0 +1,62 @@
+{
+  "status": "final_protocol_after_runtime_pilot_before_main",
+  "deadline": "2026-11-16T23:59:00+03:30",
+  "dataset": "e-SNLI",
+  "source": "https://github.com/OanaMariaCamburu/e-SNLI",
+  "source_revision": "7b585a3f077fdea899780eb0473940522ae44a2e",
+  "evaluation_split": "test",
+  "idf_reference_split": "train",
+  "sample_size": 1000,
+  "sample_seed": 20261115,
+  "sample_manifest_sha256": "b8ac2ce7f03434fe855bbe740f07d21a0e5ff9ff8f4f138c65de60863c7a3ef0",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "preferred_backend": "mps",
+  "fallback_backend": "cuda",
+  "precision": "float16",
+  "quantization": false,
+  "do_sample": false,
+  "enable_thinking": false,
+  "response_order": "explanation_then_label",
+  "batch_size": 1,
+  "max_new_tokens": 256,
+  "smoke_source_count": 5,
+  "intervention_families": [
+    "insertion",
+    "deletion"
+  ],
+  "option_layouts": [
+    [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    [
+      "neutral",
+      "contradiction",
+      "entailment"
+    ],
+    [
+      "contradiction",
+      "entailment",
+      "neutral"
+    ]
+  ],
+  "primary_variable": "named_entity",
+  "secondary_variables": [
+    "polarity",
+    "prompt_position",
+    "lexical_rarity",
+    "answer_option_position"
+  ],
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 16112026,
+  "bootstrap_unit": "source_id",
+  "multiple_testing": "BH_across_5_variables_x_2_families",
+  "minimum_subgroup_sources_for_inference": 20,
+  "idf_bin_rule": "frozen target tertiles of training-only IDF; thresholds in feature_manifest.json",
+  "fallback_edit_policy": "second insertion where no rule-screened deletion exists",
+  "generation_prompt_version": "ep_v2_concise_max25words",
+  "primary_test": "centered_source_cluster_bootstrap_omnibus_phi_equality",
+  "requested_explanation_max_words": 25
+}

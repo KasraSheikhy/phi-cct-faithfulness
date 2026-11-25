@@ -1,0 +1,9 @@
+edit_id,source_id,reason,reviewer,user_decision,final_quality_decision,outcomes_blinded
+6757018587.jpg#0r1c:deletion:008,6757018587.jpg#0r1c,deletion removes color complement of wearing after dependency parsing error; produces player wearing crouches,Codex analyst quality check,accept,reject,True
+3945002182.jpg#1r1c:deletion:003,3945002182.jpg#1r1c,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+482882307.jpg#1r1c:deletion:002,482882307.jpg#1r1c,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+2690702549.jpg#3r1c:deletion:012,2690702549.jpg#3r1c,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+4114589329.jpg#0r1n:deletion:003,4114589329.jpg#0r1n,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+4512171349.jpg#1r1e:deletion:005,4512171349.jpg#1r1e,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+3164195421.jpg#2r1n:deletion:012,3164195421.jpg#2r1n,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True
+4507759934.jpg#4r1e:deletion:002,4507759934.jpg#4r1e,digit-only target has no tokens under frozen alphabetic lexical/IDF rule,Codex pre-outcome integration check,not_in_manual_review_packet,reject,True

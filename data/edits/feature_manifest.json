@@ -1,0 +1,57 @@
+{
+  "created_at_utc": "2026-11-15T20:42:30.941058+00:00",
+  "model_outputs_seen": false,
+  "ner_model": "en_core_web_sm",
+  "ner_model_version": "3.8.0",
+  "named_entity_types": [
+    "EVENT",
+    "FAC",
+    "GPE",
+    "LANGUAGE",
+    "LAW",
+    "LOC",
+    "NORP",
+    "ORG",
+    "PERSON",
+    "PRODUCT",
+    "WORK_OF_ART"
+  ],
+  "sentiment": "VADER lexicon mean target token valence by sign; context VADER compound separately",
+  "idf_bin_rule": "tertiles over training-derived IDF values of all frozen selected targets; <= lower common, <=upper middle, else rare",
+  "idf_bin_boundaries": [
+    4.411448415575085,
+    8.230071800303973
+  ],
+  "n_sources": 1000,
+  "n_edits": 2008,
+  "family_counts": {
+    "insertion": 1080,
+    "deletion": 920
+  },
+  "audit_n": 24,
+  "selected_edits_sha256": "b927707c1d1e4446d63f2953cf3ceaed9ffef3f0139415cb277e24f51889a567",
+  "feature_counts": {
+    "named_entity": "{('deletion', 'entity'): 27, ('deletion', 'non_entity'): 893, ('insertion', 'entity'): 148, ('insertion', 'non_entity'): 932}",
+    "target_polarity": "{('deletion', 'negative'): 13, ('deletion', 'neutral'): 870, ('deletion', 'positive'): 37, ('insertion', 'negative'): 289, ('insertion', 'neutral'): 562, ('insertion', 'positive'): 229}",
+    "position_bin": "{('deletion', 'early'): 345, ('deletion', 'late'): 218, ('deletion', 'middle'): 357, ('insertion', 'early'): 395, ('insertion', 'late'): 299, ('insertion', 'middle'): 386}",
+    "idf_bin": "{('deletion', 'common'): 571, ('deletion', 'middle'): 304, ('deletion', 'rare'): 45, ('insertion', 'common'): 71, ('insertion', 'middle'): 426, ('insertion', 'rare'): 583}"
+  },
+  "fallback_policy": "Second screened insertion for sources without screened deletion; both families remain separate in analysis",
+  "additional_insertions": 80,
+  "idf_bins_unchanged_after_additions": true,
+  "active_edits": 2000,
+  "quality_excluded": [
+    "6757018587.jpg#0r1c:deletion:008",
+    "3945002182.jpg#1r1c:deletion:003",
+    "482882307.jpg#1r1c:deletion:002",
+    "2690702549.jpg#3r1c:deletion:012",
+    "4114589329.jpg#0r1n:deletion:003",
+    "4512171349.jpg#1r1e:deletion:005",
+    "3164195421.jpg#2r1n:deletion:012",
+    "4507759934.jpg#4r1e:deletion:002"
+  ],
+  "quality_replacements": [
+    "6757018587.jpg#0r1c:deletion:011"
+  ],
+  "numeric_target_repairs": 7
+}

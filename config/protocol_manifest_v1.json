@@ -1,0 +1,16 @@
+{
+  "frozen_at_utc": "2026-11-15T20:53:43.877805+00:00",
+  "study_model_outputs_seen": false,
+  "files": {
+    "config/experiment.json": "1bd11afe464ec73e0babd1d7771bdcb633ef78084a58709ec0cc9bfb2bccc877",
+    "data/frozen/frozen_sample.csv": "e327244cf4c47db9cbce37ce71065ca0e0c25d99bb62a9638bc032de403f646f",
+    "data/frozen/sample_manifest.json": "b8ac2ce7f03434fe855bbe740f07d21a0e5ff9ff8f4f138c65de60863c7a3ef0",
+    "data/frozen/idf_reference.json": "61dca768d4fb9c1209c646fb2e21f2bb0e354e34e6b855d8cbbae0e0047efdf6",
+    "data/edits/selected_edits.csv": "ff7903bcec862ff65903eb9734c6995e90a535db5f5786270d9531a64d51244a",
+    "data/edits/edit_proposals.csv": "a3df0279798434a74fdcdff8adc6ed5082c95f68d044b71e1ec40ba742648125",
+    "data/edits/feature_manifest.json": "089dd53789ba3c43545e1ecc7ae4a0e200b21ba3b37b9b9bc600e2fe7c25e273",
+    "data/audit/edit_audit.csv": "7a9f69069e68bb6bd6f9da6353df0d01d3a4c36d07d7cbe2bf3a444493bc55cc",
+    "data/audit/quality_exclusions.csv": "642728dad4c9b660379a349da7073e1466fc8593d2750defacbfcf78922ed08f",
+    "docs/experiment_plan.md": "72b8d1114fa81f7a52a6fd216d9cad2781803793a212683aaa10ee10f8824117"
+  }
+}
