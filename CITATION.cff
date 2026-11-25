@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite this repository."
+type: software
+title: "phi-CCT on e-SNLI with Qwen3-8B"
+authors:
+  - family-names: Sheikhy
+    given-names: Kasra
+    alias: KasraSheikhy
+    website: "https://github.com/KasraSheikhy"
+repository-code: "https://github.com/KasraSheikhy/phi-cct-faithfulness"
+url: "https://github.com/KasraSheikhy/phi-cct-faithfulness"
+license: MIT
+keywords:
+  - phi-CCT
+  - explanation faithfulness
+  - natural language inference
+  - e-SNLI
+  - Qwen3

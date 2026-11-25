@@ -20,7 +20,8 @@ def package(root):
     validation=json.loads((root/"outputs/notebook_validation.json").read_text())
     assert validation["canonical_restart_run_all"]=="passed_in_clean_directory"
     paths=set()
-    for name in ["README.md","GUIDE_FA.md",".gitignore","requirements-bootstrap.txt","requirements-local.lock.txt"]:paths.add(root/name)
+    for name in ["README.md","GUIDE_FA.md","LICENSE","CITATION.cff","THIRD_PARTY_NOTICES.md",
+                 ".gitignore","requirements-bootstrap.txt","requirements-local.lock.txt"]:paths.add(root/name)
     for pattern in ["config/*.json","scripts/*.py","notebooks/*.ipynb","data/**/*","references/*.md",
                     "outputs/results/*","outputs/qualitative/*","outputs/figures/*","report/*.pdf","monitor/*.html"]:
         paths.update(p for p in root.glob(pattern) if p.is_file())

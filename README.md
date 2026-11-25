@@ -115,3 +115,7 @@ Frozen inputs are under [data/](data/), raw response CSVs under [outputs/raw/](o
 - [Verbosity Tradeoffs and the Impact of Scale on the Faithfulness of LLM Self-Explanations](https://arxiv.org/abs/2503.13445v3), with [reference code](https://github.com/google-deepmind/corr_faith).
 - [e-SNLI](https://github.com/OanaMariaCamburu/e-SNLI).
 - [Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B).
+
+## License and citation
+
+Code is licensed under [MIT](LICENSE). Dataset text and the bundled lexicon retain their upstream terms; see [third-party notices](THIRD_PARTY_NOTICES.md). Citation metadata is in [CITATION.cff](CITATION.cff).
